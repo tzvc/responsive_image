@@ -2,6 +2,10 @@ import 'package:flutter/widgets.dart';
 
 typedef Widget ResponsiveImageBuilder(BuildContext context, String url);
 
+/// Define the preference of scaling for available size options.
+/// [ScalePreference.Auto] will select the abosulte closest match in the size
+/// options. [ScalePreference.Lower] and [ScalePreference.Upper] will respectively
+/// select the lower or upper size options.
 enum ScalePreference { Lower, Auto, Upper }
 
 class ResponsiveImage extends StatelessWidget {
