@@ -1,6 +1,6 @@
 name: responsive_image
 description: A flutter library that add responsive capabilities to images
-version: 0.0.1
+version: 0.1.0
 author: Théo Champion <contact.theochampion@gmail.com>
 homepage: https://github.com/theochampion/responsive_image
 
